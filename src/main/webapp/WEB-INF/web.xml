@@ -19,7 +19,7 @@
 		<url-pattern>/rest/*</url-pattern>
 	</servlet-mapping>
 	
-	<!--  	<filter>
+  	<filter>
 	<filter-name>LoginFilter</filter-name>
 	<filter-class>com.anna.coupons.servlets.LoginFilter</filter-class>
 	</filter>
@@ -27,15 +27,15 @@
 	<filter-name>LoginFilter</filter-name>
 	<url-pattern>/rest/*</url-pattern>
 	</filter-mapping> 
-	-->
-		<!-- <filter>
+
+	<filter>
 	<filter-name>CORSFilter</filter-name>
 	<filter-class>com.anna.coupons.servlets.CORSFilter</filter-class>
 	</filter>
 	<filter-mapping>
 	<filter-name>CORSFilter</filter-name>
 	<url-pattern>/rest/*</url-pattern>
-	</filter-mapping>  -->
+	</filter-mapping> 
 
 
 </web-app>
